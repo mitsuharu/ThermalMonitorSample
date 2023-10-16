@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9BFE7A822ADD3E7100F5BE06 /* ThermalMonitorSampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE7A812ADD3E7100F5BE06 /* ThermalMonitorSampleApp.swift */; };
+		9BFE7A842ADD3E7100F5BE06 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE7A832ADD3E7100F5BE06 /* ContentView.swift */; };
+		9BFE7A862ADD3E7300F5BE06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BFE7A852ADD3E7300F5BE06 /* Assets.xcassets */; };
+		9BFE7A892ADD3E7300F5BE06 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BFE7A882ADD3E7300F5BE06 /* Preview Assets.xcassets */; };
+		9BFE7A932ADD3E7300F5BE06 /* ThermalMonitorSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE7A922ADD3E7300F5BE06 /* ThermalMonitorSampleTests.swift */; };
+		9BFE7A9D2ADD3E7300F5BE06 /* ThermalMonitorSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE7A9C2ADD3E7300F5BE06 /* ThermalMonitorSampleUITests.swift */; };
+		9BFE7A9F2ADD3E7300F5BE06 /* ThermalMonitorSampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE7A9E2ADD3E7300F5BE06 /* ThermalMonitorSampleUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9BFE7A8F2ADD3E7300F5BE06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BFE7A762ADD3E7100F5BE06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BFE7A7D2ADD3E7100F5BE06;
+			remoteInfo = ThermalMonitorSample;
+		};
+		9BFE7A992ADD3E7300F5BE06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BFE7A762ADD3E7100F5BE06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BFE7A7D2ADD3E7100F5BE06;
+			remoteInfo = ThermalMonitorSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9BFE7A7E2ADD3E7100F5BE06 /* ThermalMonitorSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThermalMonitorSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BFE7A812ADD3E7100F5BE06 /* ThermalMonitorSampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThermalMonitorSampleApp.swift; sourceTree = "<group>"; };
+		9BFE7A832ADD3E7100F5BE06 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9BFE7A852ADD3E7300F5BE06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9BFE7A882ADD3E7300F5BE06 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9BFE7A8E2ADD3E7300F5BE06 /* ThermalMonitorSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThermalMonitorSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BFE7A922ADD3E7300F5BE06 /* ThermalMonitorSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThermalMonitorSampleTests.swift; sourceTree = "<group>"; };
+		9BFE7A982ADD3E7300F5BE06 /* ThermalMonitorSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThermalMonitorSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BFE7A9C2ADD3E7300F5BE06 /* ThermalMonitorSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThermalMonitorSampleUITests.swift; sourceTree = "<group>"; };
+		9BFE7A9E2ADD3E7300F5BE06 /* ThermalMonitorSampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThermalMonitorSampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BFE7A7B2ADD3E7100F5BE06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BFE7A8B2ADD3E7300F5BE06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BFE7A952ADD3E7300F5BE06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9BFE7A752ADD3E7100F5BE06 = {
+			isa = PBXGroup;
+			children = (
+				9BFE7A802ADD3E7100F5BE06 /* ThermalMonitorSample */,
+				9BFE7A912ADD3E7300F5BE06 /* ThermalMonitorSampleTests */,
+				9BFE7A9B2ADD3E7300F5BE06 /* ThermalMonitorSampleUITests */,
+				9BFE7A7F2ADD3E7100F5BE06 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9BFE7A7F2ADD3E7100F5BE06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BFE7A7E2ADD3E7100F5BE06 /* ThermalMonitorSample.app */,
+				9BFE7A8E2ADD3E7300F5BE06 /* ThermalMonitorSampleTests.xctest */,
+				9BFE7A982ADD3E7300F5BE06 /* ThermalMonitorSampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BFE7A802ADD3E7100F5BE06 /* ThermalMonitorSample */ = {
+			isa = PBXGroup;
+			children = (
+				9BFE7A812ADD3E7100F5BE06 /* ThermalMonitorSampleApp.swift */,
+				9BFE7A832ADD3E7100F5BE06 /* ContentView.swift */,
+				9BFE7A852ADD3E7300F5BE06 /* Assets.xcassets */,
+				9BFE7A872ADD3E7300F5BE06 /* Preview Content */,
+			);
+			path = ThermalMonitorSample;
+			sourceTree = "<group>";
+		};
+		9BFE7A872ADD3E7300F5BE06 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9BFE7A882ADD3E7300F5BE06 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9BFE7A912ADD3E7300F5BE06 /* ThermalMonitorSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				9BFE7A922ADD3E7300F5BE06 /* ThermalMonitorSampleTests.swift */,
+			);
+			path = ThermalMonitorSampleTests;
+			sourceTree = "<group>";
+		};
+		9BFE7A9B2ADD3E7300F5BE06 /* ThermalMonitorSampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9BFE7A9C2ADD3E7300F5BE06 /* ThermalMonitorSampleUITests.swift */,
+				9BFE7A9E2ADD3E7300F5BE06 /* ThermalMonitorSampleUITestsLaunchTests.swift */,
+			);
+			path = ThermalMonitorSampleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BFE7A7D2ADD3E7100F5BE06 /* ThermalMonitorSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BFE7AA22ADD3E7300F5BE06 /* Build configuration list for PBXNativeTarget "ThermalMonitorSample" */;
+			buildPhases = (
+				9BFE7A7A2ADD3E7100F5BE06 /* Sources */,
+				9BFE7A7B2ADD3E7100F5BE06 /* Frameworks */,
+				9BFE7A7C2ADD3E7100F5BE06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThermalMonitorSample;
+			productName = ThermalMonitorSample;
+			productReference = 9BFE7A7E2ADD3E7100F5BE06 /* ThermalMonitorSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9BFE7A8D2ADD3E7300F5BE06 /* ThermalMonitorSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BFE7AA52ADD3E7300F5BE06 /* Build configuration list for PBXNativeTarget "ThermalMonitorSampleTests" */;
+			buildPhases = (
+				9BFE7A8A2ADD3E7300F5BE06 /* Sources */,
+				9BFE7A8B2ADD3E7300F5BE06 /* Frameworks */,
+				9BFE7A8C2ADD3E7300F5BE06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BFE7A902ADD3E7300F5BE06 /* PBXTargetDependency */,
+			);
+			name = ThermalMonitorSampleTests;
+			productName = ThermalMonitorSampleTests;
+			productReference = 9BFE7A8E2ADD3E7300F5BE06 /* ThermalMonitorSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9BFE7A972ADD3E7300F5BE06 /* ThermalMonitorSampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BFE7AA82ADD3E7300F5BE06 /* Build configuration list for PBXNativeTarget "ThermalMonitorSampleUITests" */;
+			buildPhases = (
+				9BFE7A942ADD3E7300F5BE06 /* Sources */,
+				9BFE7A952ADD3E7300F5BE06 /* Frameworks */,
+				9BFE7A962ADD3E7300F5BE06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BFE7A9A2ADD3E7300F5BE06 /* PBXTargetDependency */,
+			);
+			name = ThermalMonitorSampleUITests;
+			productName = ThermalMonitorSampleUITests;
+			productReference = 9BFE7A982ADD3E7300F5BE06 /* ThermalMonitorSampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BFE7A762ADD3E7100F5BE06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					9BFE7A7D2ADD3E7100F5BE06 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					9BFE7A8D2ADD3E7300F5BE06 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 9BFE7A7D2ADD3E7100F5BE06;
+					};
+					9BFE7A972ADD3E7300F5BE06 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 9BFE7A7D2ADD3E7100F5BE06;
+					};
+				};
+			};
+			buildConfigurationList = 9BFE7A792ADD3E7100F5BE06 /* Build configuration list for PBXProject "ThermalMonitorSample" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9BFE7A752ADD3E7100F5BE06;
+			productRefGroup = 9BFE7A7F2ADD3E7100F5BE06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BFE7A7D2ADD3E7100F5BE06 /* ThermalMonitorSample */,
+				9BFE7A8D2ADD3E7300F5BE06 /* ThermalMonitorSampleTests */,
+				9BFE7A972ADD3E7300F5BE06 /* ThermalMonitorSampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9BFE7A7C2ADD3E7100F5BE06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BFE7A892ADD3E7300F5BE06 /* Preview Assets.xcassets in Resources */,
+				9BFE7A862ADD3E7300F5BE06 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BFE7A8C2ADD3E7300F5BE06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BFE7A962ADD3E7300F5BE06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BFE7A7A2ADD3E7100F5BE06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BFE7A842ADD3E7100F5BE06 /* ContentView.swift in Sources */,
+				9BFE7A822ADD3E7100F5BE06 /* ThermalMonitorSampleApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BFE7A8A2ADD3E7300F5BE06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BFE7A932ADD3E7300F5BE06 /* ThermalMonitorSampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BFE7A942ADD3E7300F5BE06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BFE7A9D2ADD3E7300F5BE06 /* ThermalMonitorSampleUITests.swift in Sources */,
+				9BFE7A9F2ADD3E7300F5BE06 /* ThermalMonitorSampleUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9BFE7A902ADD3E7300F5BE06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BFE7A7D2ADD3E7100F5BE06 /* ThermalMonitorSample */;
+			targetProxy = 9BFE7A8F2ADD3E7300F5BE06 /* PBXContainerItemProxy */;
+		};
+		9BFE7A9A2ADD3E7300F5BE06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BFE7A7D2ADD3E7100F5BE06 /* ThermalMonitorSample */;
+			targetProxy = 9BFE7A992ADD3E7300F5BE06 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9BFE7AA02ADD3E7300F5BE06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9BFE7AA12ADD3E7300F5BE06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9BFE7AA32ADD3E7300F5BE06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ThermalMonitorSample/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ThermalMonitorSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9BFE7AA42ADD3E7300F5BE06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ThermalMonitorSample/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ThermalMonitorSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9BFE7AA62ADD3E7300F5BE06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ThermalMonitorSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThermalMonitorSample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ThermalMonitorSample";
+			};
+			name = Debug;
+		};
+		9BFE7AA72ADD3E7300F5BE06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ThermalMonitorSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThermalMonitorSample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ThermalMonitorSample";
+			};
+			name = Release;
+		};
+		9BFE7AA92ADD3E7300F5BE06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ThermalMonitorSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ThermalMonitorSample;
+			};
+			name = Debug;
+		};
+		9BFE7AAA2ADD3E7300F5BE06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ThermalMonitorSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ThermalMonitorSample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BFE7A792ADD3E7100F5BE06 /* Build configuration list for PBXProject "ThermalMonitorSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BFE7AA02ADD3E7300F5BE06 /* Debug */,
+				9BFE7AA12ADD3E7300F5BE06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BFE7AA22ADD3E7300F5BE06 /* Build configuration list for PBXNativeTarget "ThermalMonitorSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BFE7AA32ADD3E7300F5BE06 /* Debug */,
+				9BFE7AA42ADD3E7300F5BE06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BFE7AA52ADD3E7300F5BE06 /* Build configuration list for PBXNativeTarget "ThermalMonitorSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BFE7AA62ADD3E7300F5BE06 /* Debug */,
+				9BFE7AA72ADD3E7300F5BE06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BFE7AA82ADD3E7300F5BE06 /* Build configuration list for PBXNativeTarget "ThermalMonitorSampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BFE7AA92ADD3E7300F5BE06 /* Debug */,
+				9BFE7AAA2ADD3E7300F5BE06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9BFE7A762ADD3E7100F5BE06 /* Project object */;
+}
