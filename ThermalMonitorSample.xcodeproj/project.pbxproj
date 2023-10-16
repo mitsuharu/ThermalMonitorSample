@@ -14,6 +14,14 @@
 		9BFE7A932ADD3E7300F5BE06 /* ThermalMonitorSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE7A922ADD3E7300F5BE06 /* ThermalMonitorSampleTests.swift */; };
 		9BFE7A9D2ADD3E7300F5BE06 /* ThermalMonitorSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE7A9C2ADD3E7300F5BE06 /* ThermalMonitorSampleUITests.swift */; };
 		9BFE7A9F2ADD3E7300F5BE06 /* ThermalMonitorSampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE7A9E2ADD3E7300F5BE06 /* ThermalMonitorSampleUITestsLaunchTests.swift */; };
+		9BFE7AB32ADD3ECC00F5BE06 /* LowPowerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE7AAC2ADD3ECC00F5BE06 /* LowPowerViewModel.swift */; };
+		9BFE7AB42ADD3ECC00F5BE06 /* LowPowerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE7AAD2ADD3ECC00F5BE06 /* LowPowerView.swift */; };
+		9BFE7AB52ADD3ECC00F5BE06 /* CameraViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE7AAF2ADD3ECC00F5BE06 /* CameraViewRepresentable.swift */; };
+		9BFE7AB62ADD3ECC00F5BE06 /* CameraViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE7AB02ADD3ECC00F5BE06 /* CameraViewModel.swift */; };
+		9BFE7AB72ADD3ECC00F5BE06 /* CameraViewError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE7AB12ADD3ECC00F5BE06 /* CameraViewError.swift */; };
+		9BFE7AB82ADD3ECC00F5BE06 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE7AB22ADD3ECC00F5BE06 /* CameraView.swift */; };
+		9BFE7AC12ADD3EE800F5BE06 /* ThermalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE7ABF2ADD3EE800F5BE06 /* ThermalViewModel.swift */; };
+		9BFE7AC22ADD3EE800F5BE06 /* ThermalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE7AC02ADD3EE800F5BE06 /* ThermalView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +52,14 @@
 		9BFE7A982ADD3E7300F5BE06 /* ThermalMonitorSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThermalMonitorSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BFE7A9C2ADD3E7300F5BE06 /* ThermalMonitorSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThermalMonitorSampleUITests.swift; sourceTree = "<group>"; };
 		9BFE7A9E2ADD3E7300F5BE06 /* ThermalMonitorSampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThermalMonitorSampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9BFE7AAC2ADD3ECC00F5BE06 /* LowPowerViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LowPowerViewModel.swift; sourceTree = "<group>"; };
+		9BFE7AAD2ADD3ECC00F5BE06 /* LowPowerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LowPowerView.swift; sourceTree = "<group>"; };
+		9BFE7AAF2ADD3ECC00F5BE06 /* CameraViewRepresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewRepresentable.swift; sourceTree = "<group>"; };
+		9BFE7AB02ADD3ECC00F5BE06 /* CameraViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewModel.swift; sourceTree = "<group>"; };
+		9BFE7AB12ADD3ECC00F5BE06 /* CameraViewError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewError.swift; sourceTree = "<group>"; };
+		9BFE7AB22ADD3ECC00F5BE06 /* CameraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		9BFE7ABF2ADD3EE800F5BE06 /* ThermalViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThermalViewModel.swift; sourceTree = "<group>"; };
+		9BFE7AC02ADD3EE800F5BE06 /* ThermalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThermalView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +110,13 @@
 		9BFE7A802ADD3E7100F5BE06 /* ThermalMonitorSample */ = {
 			isa = PBXGroup;
 			children = (
-				9BFE7A812ADD3E7100F5BE06 /* ThermalMonitorSampleApp.swift */,
 				9BFE7A832ADD3E7100F5BE06 /* ContentView.swift */,
+				9BFE7A812ADD3E7100F5BE06 /* ThermalMonitorSampleApp.swift */,
 				9BFE7A852ADD3E7300F5BE06 /* Assets.xcassets */,
+				9BFE7AAE2ADD3ECC00F5BE06 /* CameraView */,
+				9BFE7AAB2ADD3ECC00F5BE06 /* LowPowerView */,
 				9BFE7A872ADD3E7300F5BE06 /* Preview Content */,
+				9BFE7ABE2ADD3EE800F5BE06 /* ThermalView */,
 			);
 			path = ThermalMonitorSample;
 			sourceTree = "<group>";
@@ -125,6 +144,35 @@
 				9BFE7A9E2ADD3E7300F5BE06 /* ThermalMonitorSampleUITestsLaunchTests.swift */,
 			);
 			path = ThermalMonitorSampleUITests;
+			sourceTree = "<group>";
+		};
+		9BFE7AAB2ADD3ECC00F5BE06 /* LowPowerView */ = {
+			isa = PBXGroup;
+			children = (
+				9BFE7AAC2ADD3ECC00F5BE06 /* LowPowerViewModel.swift */,
+				9BFE7AAD2ADD3ECC00F5BE06 /* LowPowerView.swift */,
+			);
+			path = LowPowerView;
+			sourceTree = "<group>";
+		};
+		9BFE7AAE2ADD3ECC00F5BE06 /* CameraView */ = {
+			isa = PBXGroup;
+			children = (
+				9BFE7AAF2ADD3ECC00F5BE06 /* CameraViewRepresentable.swift */,
+				9BFE7AB02ADD3ECC00F5BE06 /* CameraViewModel.swift */,
+				9BFE7AB12ADD3ECC00F5BE06 /* CameraViewError.swift */,
+				9BFE7AB22ADD3ECC00F5BE06 /* CameraView.swift */,
+			);
+			path = CameraView;
+			sourceTree = "<group>";
+		};
+		9BFE7ABE2ADD3EE800F5BE06 /* ThermalView */ = {
+			isa = PBXGroup;
+			children = (
+				9BFE7ABF2ADD3EE800F5BE06 /* ThermalViewModel.swift */,
+				9BFE7AC02ADD3EE800F5BE06 /* ThermalView.swift */,
+			);
+			path = ThermalView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +305,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BFE7AC12ADD3EE800F5BE06 /* ThermalViewModel.swift in Sources */,
 				9BFE7A842ADD3E7100F5BE06 /* ContentView.swift in Sources */,
 				9BFE7A822ADD3E7100F5BE06 /* ThermalMonitorSampleApp.swift in Sources */,
+				9BFE7AB32ADD3ECC00F5BE06 /* LowPowerViewModel.swift in Sources */,
+				9BFE7AC22ADD3EE800F5BE06 /* ThermalView.swift in Sources */,
+				9BFE7AB42ADD3ECC00F5BE06 /* LowPowerView.swift in Sources */,
+				9BFE7AB72ADD3ECC00F5BE06 /* CameraViewError.swift in Sources */,
+				9BFE7AB52ADD3ECC00F5BE06 /* CameraViewRepresentable.swift in Sources */,
+				9BFE7AB62ADD3ECC00F5BE06 /* CameraViewModel.swift in Sources */,
+				9BFE7AB82ADD3ECC00F5BE06 /* CameraView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,8 +478,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ThermalMonitorSample/Preview Content\"";
+				DEVELOPMENT_TEAM = X2E52A945M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "ビデオ撮影のためにカメラを使用します。";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -450,8 +508,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ThermalMonitorSample/Preview Content\"";
+				DEVELOPMENT_TEAM = X2E52A945M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "ビデオ撮影のためにカメラを使用します。";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
