@@ -125,8 +125,10 @@ extension CameraViewModel {
         if (factors == [.depthModuleTemperature]) {
             factorList.append("depthModuleTemperature（深度情報を取得するモジュールが高温で動作）")
         }
-        if (factors == [.cameraTemperature]) {
-            factorList.append("cameraTemperature（カメラモジュールが高温で動作）")
+        if #available(iOS 17, visionOS 1, *) {
+            if (factors == [.cameraTemperature]) {
+                factorList.append("cameraTemperature（カメラモジュールが高温で動作）")
+            }
         }
         
         factorDescription = "発熱の原因は" + (factorList.isEmpty ? "ありません" : (factorList.joined(separator: "、") + "です"))
